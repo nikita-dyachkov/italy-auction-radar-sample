@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lot Report: Mazara del Vallo</title>
+<meta name="description" content="Sample single-lot report: one Italian court auction lot, with the numbers, risks, costs, deadlines and a checklist.">
+<style>
+  :root {
+    --bg: #f7f6f2; --card: #ffffff; --ink: #1d1d1b; --muted: #5d5c57;
+    --line: #e2dfd6; --accent: #1f5d4a; --warn-bg: #fff3dc; --warn-ink: #6b4300;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #151614; --card: #1e201d; --ink: #ecebe5; --muted: #a9a79d;
+      --line: #33352f; --accent: #6fcfb0; --warn-bg: #3a2d12; --warn-ink: #f2cf8a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #151614; --card: #1e201d; --ink: #ecebe5; --muted: #a9a79d;
+    --line: #33352f; --accent: #6fcfb0; --warn-bg: #3a2d12; --warn-ink: #f2cf8a;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 16px/1.55 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  .lede { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px;
+          padding: 18px 18px 14px; margin: 0 0 16px; }
+  .card h2 { font-size: 1.15rem; margin: 0 0 2px; }
+  .where { color: var(--muted); margin: 0 0 12px; font-size: .95rem; }
+  dl { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 0 0 12px; }
+  dt { color: var(--muted); }
+  dd { margin: 0; font-variant-numeric: tabular-nums; }
+  .risk { background: var(--warn-bg); color: var(--warn-ink); border-radius: 8px;
+          padding: 10px 12px; margin: 0 0 10px; font-size: .95rem; }
+  .risk strong { display: block; margin-bottom: 2px; }
+  a { color: var(--accent); }
+  h2.sec { font-size: 1.1rem; margin: 28px 0 8px; }
+  ul, ol { padding-left: 1.2em; margin: 0 0 12px; }
+  li { margin: 4px 0; }
+  table { border-collapse: collapse; width: 100%; font-size: .95rem; margin: 0 0 12px; }
+  td, th { border-bottom: 1px solid var(--line); padding: 6px 8px; text-align: left; vertical-align: top; }
+  .note { color: var(--muted); font-size: .9rem; margin-top: 28px; }
+  .cta { border: 1px dashed var(--line); border-radius: 12px; padding: 16px; margin: 24px 0; }
+  @media (max-width: 480px) { dl { grid-template-columns: 1fr; gap: 0; } dt { margin-top: 6px; } }
+</style>
+</head>
+<body>
+<main>
+  <h1>Lot Report: house with pool in Mazara del Vallo (Sicily)</h1>
+  <p class="lede">Sample of a single-lot report on a risky lot. Everything is taken from the sale notice and the court appraisal of procedure 83/2025, Tribunal of Marsala. Source documents: <a href="https://pvp.giustizia.it/pvp/it/detail_annuncio.page?idAnnuncio=4648549">official listing</a>. <a href="../report-settala/">A plainer lot is here.</a></p>
+
+  <div class="risk"><strong>Sample, not for sale yet</strong>A report like this for any single lot is the format we are testing. Tell us in the <a href="https://tally.so/r/Yj5dl5">early access form</a> whether you would pay for it.</div>
+
+  <h2 class="sec">1. Verdict in short</h2>
+  <ul>
+    <li><strong>A cheap price with a real legal problem.</strong> Part of the property was built without a permit and the appraisal says some of it may not be legalisable. The town could order demolition.</li>
+    <li><strong>Not habitable on paper.</strong> The appraisal says the house has no occupancy certificate.</li>
+    <li><strong>Price.</strong> Start price €97,364.56, about €353 per m² of the 276 m² the appraiser counts. The appraiser values the property at €630 per m² before deductions.</li>
+    <li><strong>The appraiser's own arithmetic does not add up.</strong> See the flag below.</li>
+  </ul>
+
+  <h2 class="sec">1a. Red flags, with where to check them</h2>
+  <p>Page numbers are PDF pages of the revised court appraisal (perizia, supplement of 24 Feb 2026) unless marked as the sale notice.</p>
+  <table>
+    <tr><th>Flag</th><th>What the documents say</th><th>Where</th></tr>
+    <tr><td>Built without a permit</td><td>Built in 1978 with no authorisation. Two amnesty applications were filed by earlier owners (1981 and 1986), and an amnesty certificate no. 413 was issued in 1998</td><td>Perizia p. 10</td></tr>
+    <tr><td>Newer works with no application</td><td>Pool, wooden pergola, extension of the covered veranda, a detached block with kitchen, WC, storage and barbecue, and changes to the internal layout. No permit or amnesty was requested for them</td><td>Perizia p. 5 and 10</td></tr>
+    <tr><td>Some of it may not be legalisable</td><td>The added volume of the detached block is in full conflict with the town plan; the town could order its demolition. The internal changes could be legalised by a retroactive filing</td><td>Perizia p. 10 and 11</td></tr>
+    <tr><td>Not habitable on paper</td><td>"L'immobile non risulta agibile"</td><td>Perizia p. 10</td></tr>
+    <tr><td>Cadastre does not match</td><td>The building does not match the cadastral plan; a new cadastral filing is needed after the works are legalised or demolished</td><td>Perizia p. 5 and 11</td></tr>
+    <tr><td>Expert's cost estimate</td><td>€8,000 for the legalisation or demolition procedure, €2,000 cadastre, €8,000 possible fines: €18,000 in total. The valuation also deducts €1,000 for interior works, so the appraiser's own lines do not fully match</td><td>Perizia p. 11 and 12</td></tr>
+    <tr><td>No energy certificate</td><td>Not found</td><td>Perizia p. 7 and 10</td></tr>
+    <tr><td>Septic tank and unpaved access</td><td>Sewage goes to a private cesspit; the area is not fully served by asphalt roads</td><td>Perizia p. 3 and 7</td></tr>
+    <tr><td>Occupied</td><td>The debtor's separated spouse and adult children live there</td><td>Perizia p. 6, 7 and 16; sale notice, "occupato"</td></tr>
+  </table>
+  <div class="risk"><strong>The numbers do not add up</strong>The appraisal deducts €18,000 from €173,905.20, which leaves €155,905.20, then takes another 15%. That gives €132,519.42, but the appraisal states €129,819.42 as the final value (p. 12 and 13), and the start price follows the stated figure. The difference is €2,700. Ask the court agent whether the starting price is final.</div>
+  <p><strong>Verified by the expert or only reported?</strong> The expert inspected the property and checked the municipal records. The occupants were reported by the owner at the inspection. The size of fines and costs are the expert's estimates, not quotes.</p>
+
+  <h2 class="sec">1b. Dates that matter</h2>
+  <table>
+    <tr><th>First appraisal</th><td>12 Jan 2026, value before deductions €193,228</td></tr>
+    <tr><th>Revised appraisal</th><td>24 Feb 2026, value before deductions €173,905.20 (€630 per m² instead of the earlier figure)</td></tr>
+    <tr><th>Court agent appointed</th><td>18 May 2026</td></tr>
+    <tr><th>Sale</th><td>22 Dec 2026, 16:30, about ten months after the revised appraisal, so check that nothing about the occupants or the works has changed</td></tr>
+    <tr><th>Vacating of the occupants</th><td>The notice says the custodian will free the property at the procedure's cost until the distribution plan is approved, unless the buyer waives that. Nothing says it has started</td></tr>
+    <tr><th>Reciprocity for non-EU buyers</th><td>Not mentioned in the notice. If you are not an EU citizen, ask an Italian lawyer to confirm that your country qualifies before you pay the deposit</td></tr>
+  </table>
+
+  <h2 class="sec">2. The property</h2>
+  <table>
+    <tr><th>What you buy</th><td>Full ownership (1/1) of a single-storey house with a garden and a pool, in the Manca-Carmine area</td></tr>
+    <tr><th>Address</th><td>Via Ucrania 6, Mazara del Vallo (TP)</td></tr>
+    <tr><th>Surface</th><td>131 m² gross house, a 43.55 m² annex, a 20 m² veranda, 420 m² garden and a 46 m² pool: 276 m² on the appraiser's weighted count</td></tr>
+    <tr><th>Cadastre</th><td>Sheet 157, parcel 442, category A2. Land in the cadastre is 873 m², the real plot about 635 m²</td></tr>
+    <tr><th>Condition</th><td>Fair outside, good inside according to the appraiser</td></tr>
+    <tr><th>Procedure</th><td>Foreclosure 83/2025, Tribunal of Marsala. Court agent and custodian: lawyer Francesco Carini</td></tr>
+  </table>
+
+  <h2 class="sec">3. Numbers</h2>
+  <table>
+    <tr><th>Value before deductions</th><td>€173,905.20 (276.04 m² at €630; €700 less 10% for age)</td></tr>
+    <tr><th>Cost of legalising or demolishing</th><td>−€18,000 (expert's estimate)</td></tr>
+    <tr><th>Flat deduction</th><td>−15% for taxes calculated on the full price and for unpaid condominium costs (there is no condominium here)</td></tr>
+    <tr><th>Value stated by the appraiser</th><td>€129,819.42 (the calculation gives €132,519.42)</td></tr>
+    <tr><th>Start price</th><td>€97,364.56, exactly 75% of the stated value. The notice does not say whether this is a repeat sale</td></tr>
+    <tr><th>Minimum offer</th><td>€73,023.42 (75% of the start price)</td></tr>
+    <tr><th>Minimum raise in the bidding</th><td>€2,000</td></tr>
+  </table>
+  <p>Rough budget to think about: the start price plus the €18,000 the expert expects you to spend, plus taxes and transfer costs that the notice does not quantify. Do not count on the cheapest outcome: if the town refuses to legalise the detached block, it may have to come down.</p>
+
+  <h2 class="sec">4. What stays and what goes</h2>
+  <ul>
+    <li><strong>Cleared by the court:</strong> a voluntary mortgage of €200,000 registered in 2024 and the seizure of 2025, at the procedure's cost.</li>
+    <li><strong>Stays with the buyer:</strong> the property is sold as seen, with its planning problems. The notice says defects, planning issues and missing works do not reduce the price.</li>
+    <li><strong>Special amnesty window:</strong> where the law allows, the buyer can file a retroactive permit within 120 days of notification of the transfer decree.</li>
+  </ul>
+
+  <h2 class="sec">5. Dates and how to bid</h2>
+  <table>
+    <tr><th>Sale opens</th><td>22 Dec 2026, 16:30, online, asynchronous, on garavirtuale.it</td></tr>
+    <tr><th>Deposit</th><td>At least 20% of the offered price, by bank transfer, credited by 23:59 on the day before the sale; the risk of late crediting is on the bidder</td></tr>
+    <tr><th>Competing bids</th><td>If there are several valid offers, bidding runs until 15:00 the next day; a bid in the last 10 minutes extends it by 10 minutes</td></tr>
+    <tr><th>Balance</th><td>Within 90 days of the sale, not suspended in the summer holiday period; miss it and you lose the deposit</td></tr>
+    <tr><th>Mortgage</th><td>Not verified. Ask the court agent whether a new mortgage is allowed</td></tr>
+  </table>
+
+  <h2 class="sec">6. For a foreign buyer</h2>
+  <ul>
+    <li>Offers are submitted through the court online platform, and a lawyer can bid for you, including for a person to be named later. Ask the court agent which identity and tax documents are required for a foreign buyer.</li>
+    <li>Reciprocity is not discussed in the notice; see the flag above.</li>
+    <li>Check with a local planning professional whether the detached block can be legalised before you decide your maximum price.</li>
+  </ul>
+
+  <h2 class="sec">7. Checklist before you bid</h2>
+  <ol>
+    <li>Read both versions of the appraisal and the notice, and ask a lawyer to review them.</li>
+    <li>Ask a Sicilian technician to check at the town hall what can be legalised and what must be demolished.</li>
+    <li>Ask the court agent about the €2,700 difference in the final value.</li>
+    <li>Ask for a viewing and check who still lives there and how the custodian plans to free the house.</li>
+    <li>Price taxes, transfer costs, the €18,000 for the works, and a margin for demolition.</li>
+    <li>Plan the 20% deposit so it is credited by 23:59 the day before the sale.</li>
+  </ol>
+
+  <p class="note">Information only, not legal or financial advice. Figures come from the official notice and the court appraisal as of 21 Oct 2026 and may change. Court sales are final and sold as seen: read the full documents and consult an Italian lawyer or notary before bidding.</p>
+</main>
+</body>
+</html>
